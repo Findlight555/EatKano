@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '你是对汤姐的爱不够吗？';
-        if (cps <= 8) return '寂寞汤姐需要您加油呢';
-        if (cps <= 10)  return '再加把劲，汤姐就是你的';
-        if (cps <= 15) return '汤姐爱你呦';
+        if (cps <= 5) return '大炮今天屎还没吃够哦';
+        if (cps <= 8) return '再喂他吃点';
+        if (cps <= 10)  return '再加把劲，大炮还在饿肚子哦';
+        if (cps <= 15) return '今日屎足';
         return '汤姐的爱';
     }
 
